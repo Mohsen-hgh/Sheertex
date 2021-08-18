@@ -1,0 +1,241 @@
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container-3, .container-2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.nav-top {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    list-style:none;
+    margin: 0%;
+}
+.nav-logo {
+    display: flex;
+    flex-grow: 2;
+    padding-left: 84px;
+    
+}
+.nav-item-t-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+ul {
+    list-style-type: none;
+}
+.user-pnl {
+    width: 5%;
+}
+.item-aln1 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.item-aln3 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.aln-tights {
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+}
+.aln-socks {
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+}
+
+.nav-lang {
+    padding: 10px 15px 0px 0px;
+}
+.container-2 {
+    background-color:rgb(231, 226, 226);
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.logos {
+    display: flex;
+    width: 250px;
+    font-size: 90px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+h5 {
+    font-weight: bold;
+    color: rgb(173, 171, 171);
+}
+.logos > span {
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+}
+.logos > i, span {
+    color: gray;    
+}
+.col-lg-2 {
+    font-weight: bold;
+}
+.container-3 {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+}
+.cnt-3-items-2, .cnt-3-items-3, .cnt-3-items-4 {
+    font-weight: 500;
+    font-size:large;
+    font-family:"Roboto", sans-serif;
+}
+.cnt-3-items-1 {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    justify-content: center;
+    background-color: rgb(189, 224, 64);
+    padding: 30px 0px 30px 20px;
+}
+.container-3 > div > span {
+    font-weight: 500;
+    font-size:larger;
+    font-family:"Roboto", sans-serif;
+    color: aliceblue;
+}
+.container-3 > div > span:first-child {
+    padding-bottom: 15px;
+}
+.cnt-3-items-2, .cnt-3-items-3 {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cnt-3-items-2 > div:first-child, .cnt-3-items-3 > div:first-child, .cnt-3-items-4 > div:first-child {
+    padding-bottom: 5px;
+}
+.cnt-3-items-5 > div {
+    display: flex;
+    justify-content: center;
+}
+.cnt-3-items-5 > div > img {
+    width: 45px;
+}
+.cnt-3-items-5 > p {
+    font-size: 75%;
+    text-align: center;
+}
+.cnt-3-items-4 {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cnt-3-items-4 > div:last-child {
+    padding-top: 10px;
+}
+.cnt-3-items-5 {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+.mail-txtbox {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: line;
+    border-bottom-color: white;
+    height: 20%;
+}
+.join-us {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0px 10px 0px;
+    font-size:larger;
+
+}
+.join-us > button > i {
+    color: white;
+    
+}
+.bg-colr {
+    background-color: rgb(189, 224, 64);
+}
+.btn-sub {
+    border-style: none;
+}
+.nav-down{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display:flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size:medium;
+    font-family:"Roboto", sans-serif;
+}
+.nav-d-item-1, .nav-d-item-2, .nav-d-item-3,
+ .nav-d-item-6, .nav-d-item-8 {
+    display: flex;
+    width: 20%;
+    justify-content:center;
+    align-items: center;
+}
+.flex-aln-r {
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-aln-l {
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-d-item-3 {
+    width: 25%;
+    padding-right: 10px;    
+}
+.nav-d-item-2, .nav-d-item-5, .nav-d-item-8 {
+    padding-left: 5px;
+} 
+.nav-d-item-6 {
+    padding-right: 15px;
+}
+.nav-d-item-3 > i > span {
+    font-family:"Roboto", sans-serif;
+    color: black;
+}
+.nav-d-item-8 > i, .nav-d-item-5 > a {
+    padding-left: 5px;
+}
+.nav-d-item-2 {
+    padding-left: 20px;
+}
+.nav-d-item-2 > select, .lang {
+    border: none;
+}
+.nav-link {
+    color: black !important;
+}
